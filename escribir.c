@@ -12,7 +12,7 @@ int main(void){
     // en la direccion a la que apunta este puntero esta la data a escribir.
     int *a = malloc(sizeof(int));
 
-    printf("ingrese el valor a guardar en fulbo.dat: ");
+    printf("ingrese el valor a guardar en la posicion 1 fulbo.dat: ");
     scanf("%i", a);
 
     // fwrite(puntero con la data a escribir, cantidad de elementos que se van a escribir, tamanio en bytes, puntero al archivo);
